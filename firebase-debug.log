@@ -1,0 +1,24 @@
+[debug] [2024-08-03T14:12:36.703Z] ----------------------------------------------------------------------
+[debug] [2024-08-03T14:12:36.705Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js use --add
+[debug] [2024-08-03T14:12:36.705Z] CLI Version:   13.15.0
+[debug] [2024-08-03T14:12:36.705Z] Platform:      win32
+[debug] [2024-08-03T14:12:36.705Z] Node Version:  v20.16.0
+[debug] [2024-08-03T14:12:36.705Z] Time:          Sat Aug 03 2024 19:42:36 GMT+0530 (India Standard Time)
+[debug] [2024-08-03T14:12:36.705Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-08-03T14:12:36.752Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-08-03T14:12:36.752Z] > authorizing via signed-in user (pranjith.softsuave@gmail.com)
+[debug] [2024-08-03T14:12:36.754Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2024-08-03T14:12:37.570Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-08-03T14:12:37.570Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2024-08-03T14:12:44.417Z] ----------------------------------------------------------------------
+[debug] [2024-08-03T14:12:44.419Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js use --add
+[debug] [2024-08-03T14:12:44.419Z] CLI Version:   13.15.0
+[debug] [2024-08-03T14:12:44.419Z] Platform:      win32
+[debug] [2024-08-03T14:12:44.419Z] Node Version:  v20.16.0
+[debug] [2024-08-03T14:12:44.419Z] Time:          Sat Aug 03 2024 19:42:44 GMT+0530 (India Standard Time)
+[debug] [2024-08-03T14:12:44.419Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-08-03T14:12:44.465Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-08-03T14:12:44.466Z] > authorizing via signed-in user (pranjith.softsuave@gmail.com)
+[debug] [2024-08-03T14:12:44.468Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000

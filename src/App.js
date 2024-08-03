@@ -1,24 +1,23 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import AuthProvider from './contexts/AuthContext';
+import SignIn from './Pages/Auth/Sign-in';
+import SignUp from './Pages/Auth/Sign-up';
+import Home from './Pages/Home/home';
 
 function App() {
+  const [route, setRoute] = useState('sign-in')
+  const handleRoute = (route) => {
+    setRoute(route);
+  } 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AuthProvider>
+      <div className="position-fixed">
+        {route === 'sign-in' ?
+          <SignIn handleRoute={handleRoute} /> : route === 'sign-up' ?
+            <SignUp handleRoute={handleRoute} /> : route === 'home' ? <Home handleRoute={handleRoute} /> : ''}
+      </div>
+    </AuthProvider>
   );
 }
 

@@ -1,0 +1,103 @@
+/* Login page styles */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5e2db3;
+
+}
+.login-box{
+    width: clamp(300px, 80%, 600px);
+    height: clamp(300px, 80%, 600px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #7344bc;
+    border-radius: 10px;
+    color: white;
+}
+
+.login-form {
+  width: clamp(200px, 70%, 400px);
+  padding: 40px 20px;
+  background-color: #313030;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.textbox {
+  width: 100%;
+  border-radius: 3px;
+
+}
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form input{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.login-form input:hover {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #4caf50;
+  border-radius: 3px;
+}
+
+
+.login-form .login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.login-form .login-button:hover {
+  background-color: #45a049;
+} 
+
+.register-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #4681f4;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.login-form .register-btn:hover {
+  background-color: #3e7af3;
+} 
+
+/* Toaster */
+.toast-class {
+  width: 80%;
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+  font-weight: 600;
+}
+.error-class {
+  background-color: rgb(209, 174, 174);
+  color: red;
+  border: 1px solid red;
+}
+.success-class {
+  background-color: rgb(183, 214, 183);
+  color: green;
+  border: 1px solid green;
+}
