@@ -46,6 +46,7 @@ const SignUp = ({ handleRoute }) => {
         <form className="login-form" onSubmit={handleSignUp}>
           <div className="textbox">
             <input
+            className="text-black"
               type="text"
               placeholder="Email"
               ref={emailRef}

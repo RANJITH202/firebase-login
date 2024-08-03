@@ -37,7 +37,7 @@ const SignIn = ({ handleRoute }) => {
         <h1>Login</h1>
         <form className="login-form" onSubmit={handleSubmit}>
           <div className="textbox">
-            <input type="email" ref={emailRef} placeholder="Email" name="Email" />
+            <input className="text-black" type="email" ref={emailRef} placeholder="Email" name="Email" />
           </div>
           <div className="textbox relative">
             <img
@@ -48,7 +48,7 @@ const SignIn = ({ handleRoute }) => {
                 setVisibility(!visibility);
               }}
             />
-            <input type={visibility ? "text" : "password"} ref={passwordRef} placeholder="Password" name="password" />
+            <input className="text-black" type={visibility ? "text" : "password"} ref={passwordRef} placeholder="Password" name="password" />
           </div>
           <button type="submit" className="login-button">
             Login
